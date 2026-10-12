@@ -1,47 +1,44 @@
-English feature explanations are available in [All features and progress](https://github.com/BTTSpace/KiKAiTO-client/issues/2). The baseline below is retained; [change batch CR-2026-10-12-01](https://github.com/BTTSpace/KiKAiTO-client/issues/18) records pending later questions and additions.
+# Website features
 
-# KiKAiTO 中英文網站改版功能範圍 v2
+The feature plan dated 2026-09-24 is listed in [all features and progress](https://github.com/BTTSpace/KiKAiTO-client/issues/2). Later homepage feedback is linked in [the received document](https://github.com/BTTSpace/KiKAiTO-client/blob/main/docs/customer-feedback/FR-2026-10-12-01/README.md).
 
-本頁依《KiKAiTO 中英文網站改版 功能規劃附件 v2》（2026 年 9 月 24 日）整理全部功能與交付範圍，供客戶確認。v2 取代上一版；與舊規劃的分類差異請在 [分類確認](https://github.com/BTTSpace/KiKAiTO-client/issues/4) 回覆。
+## Website
 
-需求細節、客戶回覆與驗收紀錄以 [功能與進度總覽](https://github.com/BTTSpace/KiKAiTO-client/issues/2) 連結的各功能 issue 為維護位置。這裡的 issue 是每項功能的討論頁。
+The Chinese homepage, categories, products and existing links remain available. The English homepage presents KiKAiTO and its tagline, new-product video covers, Featured New Products, News and category icons, on desktop and mobile.
 
-## 中文網站維持現況
+English product pages show descriptions, specifications and images, with a link that prepares an email in the visitor’s own email application. English navigation includes Quality & Service, About Us and Contact. Visitors choose when to play product videos.
 
-保留既有首頁、導覽、分類、商品介紹、優質新品、社群與公司資訊的版型、功能及網址。英文新增而中文原本沒有的功能只放英文網站。中文既有優質新品頁及網址保留，不作轉址；中文內容仍依原有方式維護。
+## Content management
 
-## 英文網站畫面
+Administrators enter a product once and maintain its Chinese and English text, images and publication separately. Chinese categories stay unchanged; a product can belong to multiple English categories. Administrators can choose Featured New Products, edit English homepage/News content and maintain information pages.
 
-英文網站採專屬版型與路由，參考中文品牌風格。
+## Materials and review
 
-- 英文首頁：頁首顯示 KiKAiTO 與「Affordable. Reliable. Global」；依序呈現 3–5 支新品影片封面輪播、優質新品圖片、News 與產品分類圖示。手機及電腦均可使用。
-- 英文產品：由分類圖示、Products 選單或優質新品圖片進入產品頁，閱讀英文介紹、規格及圖片。每項產品介紹末端有詢價連結。
-- 英文 News：提供首頁摘要、消息列表與詳情。
-- 英文資訊頁：依英文導覽製作 Quality & Service、About Us、Contact。
-- 英文詢價：開啟訪客自己的電子郵件程式，預填收件地址、產品名稱、型號及頁面網址，保留數量、目的地與留言欄位。訪客自行確認並寄出。
+The customer supplies copy, images, videos/covers, English category names and product mapping. Demos will show the English pages, mobile layout and main content-management operations. Each feature issue lists the materials and acceptance checks.
 
-## 後台管理
+Automatic translation, shopping carts and online checkout are outside this plan. The website does not send or track quotation emails.
 
-同一商品只建立一筆主資料。在同一商品編輯頁分別維護中文及英文名稱、介紹、規格、圖片與上架狀態。新增英文欄位與媒體，保留中文既有展示方式。
+<details>
+<summary>中文說明（點此展開）</summary>
 
-- 分類與精選：保留原中文分類設定；新增客戶提供的完整英文系列／子分類，同一商品可放入多個英文分類。可勾選英文優質新品，設定英文展示順序與圖片。
-- 英文首頁與 News：管理影片來源、封面、排序及發布；維護優質新品、News、分類圖示與連結。內容可先存草稿，確認後發布。
-- 資訊頁：維護英文 Quality & Service、About Us、Contact。有中英文對應資料的項目在同一編輯頁填各語內容；英文獨有區塊提供英文欄位。
+# 網站功能
 
-日常流程：新增商品一次 → 填英文內容與圖片 → 指定英文分類及優質新品 → 預覽英文畫面 → 發布英文內容。既有中文商品資料及頁面繼續維護。
+2026-09-24 的功能計劃列於[全部功能與進度](https://github.com/BTTSpace/KiKAiTO-client/issues/2)。後續首頁回饋見[收到的原始文件](https://github.com/BTTSpace/KiKAiTO-client/blob/main/docs/customer-feedback/FR-2026-10-12-01/README.md)。
 
-## Demo 與調整
+## 網站
 
-開發期間提供可檢視的英文首頁、產品頁、手機版及後台主要操作 Demo。雙方討論後，依共識調整本案範圍內的版面呈現及操作細節，確認交付畫面。
+中文首頁、分類、商品及既有連結維持可用。英文首頁在桌機及手機顯示 KiKAiTO 與標語、新品影片封面、優質新品、News 及分類圖示。
 
-## 系統調整與檢查
+英文產品頁提供介紹、規格及圖片，詢價連結在訪客自己的郵件程式準備郵件。英文導覽包括 Quality & Service、About Us 及 Contact，產品影片由訪客決定何時播放。
 
-擴充商品資料以保存兩語各自的內容、圖片及發布狀態。新增英文分類關聯、首頁區塊、News 與資訊頁管理資料。英文使用專屬版型及路由，中文既有版型、資料與網址保留。
+## 內容管理
 
-加入程式自動檢查與持續整合流程（CI），在更新時及早發現常見錯誤。程式碼、檢查日誌與工程工作在另一個私有專案處理；客戶討論頁記錄相關檢查結果。
+管理者只需建立商品一次，分別維護中英文文字、圖片及發布。中文分類維持，同一商品可加入多個英文分類；管理者可選優質新品、編輯英文首頁及 News，並維護資訊頁。
 
-## 內容提供與交付
+## 素材與查看
 
-客戶提供中英文文案、圖片、影片／封面、英文分類名稱及產品對照。專案負責人完成後台介面、英文前台、資料擴充與中文銜接，以 v2 功能作為交付驗收依據。
+客戶提供文案、圖片、影片／封面、英文分類及產品對照。Demo 會展示英文頁面、手機版及主要內容管理操作，各功能議題列出素材及驗收條件。
 
-網站不代寄或追蹤詢價郵件。自動翻譯、購物車、線上結帳與第三方服務費用不在本次範圍內。
+本計劃不含自動翻譯、購物車及線上結帳，網站不代寄或追蹤詢價郵件。
+
+</details>
