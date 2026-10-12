@@ -6,7 +6,8 @@ All readers use the same English label names.
 | --- | --- |
 | `needs-customer-response` | A reply is required, in an issue comment or via LINE. |
 | `needs-customer-decision` | A feature choice: recommended option/reason and an Other field are included. |
-| `awaiting-demo` | A demo or screenshots are not available yet. |
+| `planned` | Feature planning; demonstrations follow implementation. |
+| `awaiting-demo` | In the demonstration stage, awaiting screens or a demo link. |
 | `in-progress` | The feature is being built or adjusted. |
 | `awaiting-acceptance` | A shown version is ready for customer acceptance. |
 | `updated-review` | Feature content has changed; read the linked update. |
@@ -37,7 +38,8 @@ Only issues with `needs-customer-response` require a reply now. A source or upda
 | --- | --- |
 | `needs-customer-response` | 需要在議題留言或透過 LINE 回覆。 |
 | `needs-customer-decision` | 功能選項需確認，每題附建議、理由及「其他」填寫欄。 |
-| `awaiting-demo` | 尚待提供 demo 或截圖。 |
+| `planned` | 功能規劃階段，展示於功能完成後提供。 |
+| `awaiting-demo` | 已進入展示階段，等待截圖或 demo 連結。 |
 | `in-progress` | 功能正在製作或調整。 |
 | `awaiting-acceptance` | 已有展示版本，待客戶驗收。 |
 | `updated-review` | 功能說明有變動，請看更新。 |
