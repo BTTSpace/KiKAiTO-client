@@ -9,7 +9,7 @@ Original document: Few Suggestions_English homepage.docx. Saved as document v1 o
 | A | Global Distribution / Where to Buy | [Distributor directory](https://github.com/BTTSpace/KiKAiTO-client/issues/17) |
 | B | Homepage animation and motion | [English homepage](https://github.com/BTTSpace/KiKAiTO-client/issues/6), [content editing](https://github.com/BTTSpace/KiKAiTO-client/issues/13) |
 
-[One summary and required reply](https://github.com/BTTSpace/KiKAiTO-client/issues/18) · [Feedback summary](../../review-2026-10-12.md)
+[Feedback summary and related features](https://github.com/BTTSpace/KiKAiTO-client/issues/18) · [Feedback summary](../../review-2026-10-12.md)
 
 <details>
 <summary>中文說明（點此展開）</summary>
@@ -25,6 +25,6 @@ Original document: Few Suggestions_English homepage.docx. Saved as document v1 o
 | A | 全球經銷／購買據點 | [經銷商名單](https://github.com/BTTSpace/KiKAiTO-client/issues/17) |
 | B | 首頁動畫及動態 | [英文首頁](https://github.com/BTTSpace/KiKAiTO-client/issues/6)、[內容編輯](https://github.com/BTTSpace/KiKAiTO-client/issues/13) |
 
-[唯一總覽及需要回覆的項目](https://github.com/BTTSpace/KiKAiTO-client/issues/18)、[回饋摘要](../../review-2026-10-12.md)。
+[回饋總覽及相關功能](https://github.com/BTTSpace/KiKAiTO-client/issues/18)、[回饋摘要](../../review-2026-10-12.md)。
 
 </details>
