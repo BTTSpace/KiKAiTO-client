@@ -12,9 +12,9 @@ English product pages show descriptions, specifications and images, with a link 
 
 Administrators enter a product once and maintain its Chinese and English text, images and publication separately. Chinese categories stay unchanged; a product can belong to multiple English categories. Administrators can choose Featured New Products, edit English homepage/News content and maintain information pages.
 
-## Materials and review
+## Editable content and review
 
-The customer supplies copy, images, videos/covers, English category names and product mapping. Demos will show the English pages, mobile layout and main content-management operations. Each feature issue lists the materials and acceptance checks.
+Administrators enter text, upload images/covers, add video links and manage English categories themselves. Demos will show the English pages, mobile layout and main content-management operations. Demos use labeled example data; each feature issue lists editable content and acceptance.
 
 Automatic translation, shopping carts and online checkout are outside this plan. The website does not send or track quotation emails.
 
@@ -35,9 +35,9 @@ Automatic translation, shopping carts and online checkout are outside this plan.
 
 管理者只需建立商品一次，分別維護中英文文字、圖片及發布。中文分類維持，同一商品可加入多個英文分類；管理者可選優質新品、編輯英文首頁及 News，並維護資訊頁。
 
-## 素材與查看
+## 可管理內容與查看
 
-客戶提供文案、圖片、影片／封面、英文分類及產品對照。Demo 會展示英文頁面、手機版及主要內容管理操作，各功能議題列出素材及驗收條件。
+管理者自行填文字、上傳圖片／封面、設定影片連結及英文分類。Demo 會展示英文頁面、手機版及主要內容管理操作，Demo 使用標示的示範資料，各功能列出可管理內容及驗收。
 
 本計劃不含自動翻譯、購物車及線上結帳，網站不代寄或追蹤詢價郵件。
 
