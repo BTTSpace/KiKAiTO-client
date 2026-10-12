@@ -1,44 +1,80 @@
-# Feature communication and delivery checks 功能溝通與交付檢核
+# Feature communication and delivery checks
 
-Every feature issue must explain the same scope in English and Chinese and include project-specific screen evidence. This requirement applies to planning, demos and acceptance. The project owner checks each submission.
-每項功能議題必須以中英文說明同一範圍，並附本專案的畫面證據。此要求適用於規劃、demo 及驗收，由專案負責人逐項檢核。
+The owner checks every customer feature plan, issue, demo and acceptance record. The English-site revamp scope stays unchanged by bilingual documentation.
 
-## Feature explanation 功能說明
+## Language layout
 
-Use a fixed feature number and bilingual name. Explain the purpose, entry point, user action, resulting screen, materials required and open decisions. Keep English button names as shown on screen and add Chinese explanations. The revamp targets the English website; bilingual communication does not extend Chinese-site functions.
-使用固定功能編號及中英文名稱。說明用途、入口、操作、操作結果、所需素材與待確認事項。按鈕保留畫面英文原文，補中文解釋。本次改版針對英文網站，中英對照說明不增加中文網站功能。
+Show the complete English explanation first. Put the complete Chinese explanation in a separate expandable section below, using details/summary. Each language has its own lists, tables, captions and open decisions. Do not join translated sentences or bilingual table cells. Preserve English button names in Chinese explanations where needed to match the screen.
 
-## Mandatory screen evidence 必要畫面證據
+## Required screen evidence
 
-Attach at least one project-specific screenshot beside each feature explanation. Mark the relevant entry or operation. During planning, attach a screenshot of the design and label it Design mockup / 設計示意. Reference-site images supplement direction and cannot replace project-specific evidence.
-每項功能說明旁至少附一張本專案截圖，標出入口或操作位置。規劃時附設計稿截圖，明確標示 Design mockup / 設計示意。參考網站圖片只能補充方向，不能取代本專案畫面。
+Every feature needs at least one project-specific screenshot beside its explanation, with the entry/action identified. Design screenshots must match the original website’s design and be marked as mockups. If this cannot be achieved, attach no arbitrary image; record the missing evidence and leave the delivery check incomplete. Reference sites supplement direction and cannot replace project screens.
 
-Interactive features require before/after or key-state screenshots. Motion, carousels and video playback also require a recording or interactive demo when submitted for demonstration or acceptance. Mobile and desktop features require both sizes.
-互動功能須附操作前後或關鍵狀態截圖。動畫、輪播及影片在 demo 與驗收時另附錄影或可操作 demo。涉及手機與桌機的功能須提供兩種尺寸。
+Interactive features require before/after or key states. Applicable features require desktop and mobile views. At demo and acceptance, motion, carousels and video require a recording or interactive demo in addition to screenshots. Use actual screenshots from the demonstrated version for demo and acceptance.
 
-Each image needs a bilingual caption, feature number, screen state and design or demonstrated version/date. Demo and acceptance use actual screenshots of the demonstrated version. Changes require matching updates to images and both explanations. Check public assets for private information.
-每張圖附中英文圖說、功能編號、狀態及設計稿或展示版本／日期。demo 與驗收使用展示版本的實際截圖。畫面修改時同步更新圖片與兩語說明，公開前檢查敏感資料。
+Captions record feature number, state and design or demonstrated version/date. Provide captions within each language section. Update images and both explanations together when screens change. Check public assets for private information.
 
-## Delivery checklist 交付檢核
+## Delivery checklist
 
-- [ ] Bilingual scope and status match. 中英文範圍與狀態一致。
-- [ ] Purpose, entry, action, result, materials and open decisions are stated. 用途、入口、操作、結果、素材與待確認事項完整。
-- [ ] Every feature has readable project-specific screenshots with marked areas and bilingual captions. 每項功能有清楚標示位置及中英圖說的本專案截圖。
-- [ ] Mockups, references and actual implementation are distinguished. 設計示意、參考畫面與實作畫面清楚區分。
-- [ ] Key interaction states and applicable desktop/mobile screens are shown. 互動關鍵狀態及適用的桌機／手機畫面完整。
-- [ ] Motion has a recording or interactive demo at demonstration and acceptance. 動態功能在 demo 與驗收有錄影或可操作展示。
-- [ ] Images and explanations match the submitted version. 圖片及說明對應提交版本。
-- [ ] Public materials contain no private information. 公開素材不含敏感資訊。
-- [ ] The owner records results and reasons for non-applicable checks. 負責人記錄結果及不適用項目的原因。
+- [ ] Complete English and expandable Chinese sections have matching scope and status.
+- [ ] Purpose, entry, action, result, materials and open decisions are stated in both sections.
+- [ ] Each feature has readable screenshots grounded in the original website design, identified areas and captions.
+- [ ] Mockups, references and implemented screens are distinguished.
+- [ ] Applicable interaction states and desktop/mobile views are supplied.
+- [ ] Motion recordings or interactive demos are supplied for demo and acceptance.
+- [ ] Images and explanations match the submitted version.
+- [ ] Public assets contain no private information.
+- [ ] The owner records results, evidence gaps and reasons for non-applicable checks.
 
-Missing applicable evidence keeps the feature awaiting materials and blocks a ready-for-delivery or completion claim. Planning completeness does not mean implementation or customer acceptance. Customer silence is not approval.
-缺少適用證據時，功能維持待補件，不得宣告可交付或完成。規劃完整不代表已實作或已驗收，客戶未回覆不等於同意。
+Missing evidence blocks a ready-for-delivery or completion claim; an issue may still be published as awaiting evidence. Planning completeness does not mean implementation acceptance. Customer silence is not approval.
 
-## Review labels 變更標籤
+## Permanent source and change records
 
-- `updated-review`: substantive content changed or a new request needs review. The owner keeps it until the corresponding reply is recorded. 內容實質變更或新增需求待閱讀；負責人記錄對應回覆後才移除。
-- `bilingual`: English and Chinese explanations are available. This does not indicate a scope change. 已有中英對照，不代表範圍變更。
-- `scope-change`: a request beyond the v2 baseline; scope and impact await agreement. v2 以外的需求，範圍與影響待確認。
+Assign a stable request feedback record number to each independent customer submission. Preserve the original file and assign document v1 if none is supplied. A revision to the same submission gets v2 under the same record; a separate submission gets a new record. Record registration date separately from any verified customer submission date.
 
-Start with the latest review overview for changed items only. Reply in the linked feature issue in either language. The owner records replies received through the usual contact channel, including respondent and date. Customer acceptance still requires the demonstrated version and checks.
-先看最新變更總覽，只閱讀連結的變動項目。在各功能議題以任一語言回覆；透過原聯絡方式回覆時，負責人代記回覆人及日期。客戶驗收仍須核對展示版本與檢查結果。
+Each record maps document items to issues. Each issue names the source record, revision and affected item. Preserve source labels, dated batch labels and batch overviews permanently. Later batches get new records rather than rewriting earlier batch descriptions. Remove only temporary review-status labels after the corresponding reply is recorded.
+
+`updated-review` means changed content awaits review. `bilingual` means both language sections exist. `scope-change` means added scope awaits agreement. Date-specific batch labels track all edited issues, while source labels track only issues related to the customer document. See [the source register](customer-feedback/README.md).
+
+<details>
+<summary>中文說明（點此展開）</summary>
+
+# 功能溝通與交付檢核
+
+負責人檢查每份客戶功能規劃、議題、demo 及驗收紀錄。雙語文件不改變英文版改版範圍。
+
+## 語言排版
+
+預設顯示完整英文，完整中文放在下方獨立可展開區塊，使用 details/summary。兩語各自有列表、表格、圖說及待確認事項，不將翻譯句子直接接在一起，也不混排在同一表格欄位。中文說明可保留必要的英文按鈕原名，以便核對畫面。
+
+## 必要畫面證據
+
+每項功能說明旁至少附一張本專案截圖，標出入口或操作位置。設計截圖須符合原網站設計並標為示意。無法做到時不附任意圖片，記錄缺件並保留未通過檢核。參考網站只補充方向，不取代本專案畫面。
+
+互動功能附操作前後或關鍵狀態，適用功能附桌機及手機畫面。動畫、輪播及影片在 demo 與驗收時另附錄影或可操作展示，並保留截圖。Demo 及驗收使用展示版本實際截圖。
+
+圖說記錄功能編號、狀態、設計稿或展示版本／日期，分別放在各語言區塊。畫面變更時同步更新圖片及兩語說明，公開前檢查敏感資料。
+
+## 交付檢核
+
+- [ ] 完整英文及可展開中文的範圍與狀態一致。
+- [ ] 兩語均說明用途、入口、操作、結果、素材及待確認事項。
+- [ ] 每項功能有符合原網站設計的清楚截圖、位置標示及圖說。
+- [ ] 示意、參考畫面及實作畫面清楚區分。
+- [ ] 適用的互動狀態及桌機／手機畫面完整。
+- [ ] Demo 及驗收的動態錄影或可操作展示完整。
+- [ ] 圖片與說明對應提交版本。
+- [ ] 公開素材不含敏感資訊。
+- [ ] 負責人記錄結果、缺件及不適用項目的原因。
+
+缺少證據不得宣告可交付或完成，議題仍可標記待補證據後發布。規劃完整不等於實作驗收，客戶未回覆不等於同意。
+
+## 永久來源及變更紀錄
+
+每次獨立客戶回饋編固定需求回饋單號，保存原檔。客戶未提供版本時，由專案編文件 v1。同一份回饋修訂另存 v2，獨立新回饋另編單號。登錄日期與已確認的客戶提交日期分開記錄。
+
+每張單建立文件項目與議題對照，議題記錄來源單號、文件版本及項目。來源標籤、日期批次標籤及批次總覽永久保留。後續批次另開紀錄，不覆寫原批次說明；記錄對應回覆後只移除暫時待閱讀標籤。
+
+`updated-review` 為內容變更待閱讀，`bilingual` 表示兩語區塊完整，`scope-change` 表示新增範圍待確認。日期批次標籤追蹤所有修改議題，來源標籤只標示與客戶文件相關的議題。見[來源登錄表](customer-feedback/README.md)。
+
+</details>
