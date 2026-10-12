@@ -2,6 +2,12 @@
 
 The owner checks every customer feature plan, issue, demo and acceptance record. The English-site revamp scope stays unchanged by bilingual documentation.
 
+## Customer-facing content
+
+Customer issues describe visitor and administrator behavior, required materials, visible results and customer-readable acceptance checks. Keep CI/CD, deployment, code structure, database design, private issue links and internal logs in the private engineering repository. Record the customer-to-engineering mapping only in the private issue and PR. A customer sees a demonstrated version and a readable check summary, not engineering execution details.
+
+Reuse the corresponding engineering issue for technical work. If an engineering decision requires the project owner's choice, present a concrete recommendation and alternatives to the owner; do not ask the customer to choose implementation details. Customer confirmation is reserved for consequential ambiguity in their expected behavior or business scope.
+
 ## Language layout
 
 Show the complete English explanation first. Put the complete Chinese explanation in a separate expandable section below, using details/summary. Each language has its own lists, tables, captions and open decisions. Do not join translated sentences or bilingual table cells. Preserve English button names in Chinese explanations where needed to match the screen.
@@ -27,6 +33,7 @@ Captions record feature number, state and design or demonstrated version/date. P
 - [ ] Complete English and expandable Chinese sections have matching scope and status.
 - [ ] Purpose, entry, action, result, materials and open decisions are stated in both sections.
 - [ ] Clear requirements use delivery commitments and testable acceptance criteria; only consequential ambiguities ask for a customer decision.
+- [ ] Customer-visible behavior and readable check results are presented without engineering details or private references.
 - [ ] Every unanswered customer decision has `請客戶確認` and a numbered choice block; materials and acceptance checks are separate.
 - [ ] Each feature has readable screenshots grounded in the original website design, identified areas and captions.
 - [ ] Mockups, references and implemented screens are distinguished.
@@ -55,6 +62,12 @@ Each record maps document items to issues. Each issue names the source record, r
 
 負責人檢查每份客戶功能規劃、議題、demo 及驗收紀錄。雙語文件不改變英文版改版範圍。
 
+## 客戶可讀內容
+
+客戶議題只描述訪客及管理者操作、所需素材、可見結果與客戶可核對的驗收。CI/CD、部署、程式結構、資料庫設計、私有議題連結及內部日誌放在私有開發倉庫。客戶與工程議題對照只記錄於私有工程議題及 PR，客戶只看展示版本與清楚的檢查摘要。
+
+工程工作優先更新對應開發議題。需要專案負責人決定的工程事項，提出具體建議及替代方案給負責人，不要求客戶選實作細節。客戶確認只用於預期行為或業務範圍的真正歧義。
+
 ## 語言排版
 
 預設顯示完整英文，完整中文放在下方獨立可展開區塊，使用 details/summary。兩語各自有列表、表格、圖說及待確認事項，不將翻譯句子直接接在一起，也不混排在同一表格欄位。中文說明可保留必要的英文按鈕原名，以便核對畫面。
@@ -80,6 +93,7 @@ Each record maps document items to issues. Each issue names the source record, r
 - [ ] 完整英文及可展開中文的範圍與狀態一致。
 - [ ] 兩語均說明用途、入口、操作、結果、素材及待確認事項。
 - [ ] 明確需求列為交付承諾及可核對驗收，只有影響行為或範圍的歧義才請客戶決定。
+- [ ] 客戶只看操作、可見結果與檢查摘要，不含工程細節或私有參照。
 - [ ] 未回答的客戶決定有 `請客戶確認` 及編號選項，素材與驗收檢核另列。
 - [ ] 每項功能有符合原網站設計的清楚截圖、位置標示及圖說。
 - [ ] 示意、參考畫面及實作畫面清楚區分。
