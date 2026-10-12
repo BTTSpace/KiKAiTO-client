@@ -1,3 +1,6 @@
+> English readers: each feature has a full English explanation in [All features and progress](https://github.com/BTTSpace/KiKAiTO-client/issues/2). The v2 scope below is the baseline. [Latest changes to review](https://github.com/BTTSpace/KiKAiTO-client/issues/18) records later questions and proposed additions; these remain pending agreement.
+> 英文讀者可由功能總覽閱讀各項完整英文說明。下列 v2 保留為基準；後續疑問與新增提案見最新變更總覽，未確認項目仍待確認。
+
 # KiKAiTO 中英文網站改版功能範圍 v2
 
 本頁依《KiKAiTO 中英文網站改版 功能規劃附件 v2》（2026 年 9 月 24 日）整理全部功能與交付範圍，供客戶確認。v2 取代上一版；與舊規劃的分類差異請在 [分類確認](https://github.com/BTTSpace/KiKAiTO-client/issues/4) 回覆。

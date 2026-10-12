@@ -1,32 +1,30 @@
-# KiKAiTO 網站改版協作
+# KiKAiTO English website revamp 英文網站改版協作
 
-這裡用來確認中英文網站改版功能、提供素材、查看進度與回覆展示版本。每項功能都有獨立討論頁（GitHub 稱為 issue），可以閱讀需求與留言。
+Start with [Latest changes to review / 最新變更待確認總覽](https://github.com/BTTSpace/KiKAiTO-client/issues/18). It links only the changed items needing review. Every existing issue now includes English and Chinese explanations.
+先看最新變更總覽，只閱讀有變動且待確認的項目。既有議題均有中英對照。
 
-請先開啟 [全部功能與進度總覽](https://github.com/BTTSpace/KiKAiTO-client/issues/2)，再點選要確認的功能。
+The existing system has English and Chinese versions. This work revamps the English version and preserves the Chinese site. Planning screenshots are clearly marked as design mockups; they are not implemented screens.
+既有系統有中英文版，本次改版英文版並保留中文現況。規劃截圖標為設計示意，非實作畫面。
 
-- [操作與回覆指南](https://github.com/BTTSpace/KiKAiTO-client/issues/1)：閱讀與留言方式。
-- [全部功能與進度總覽](https://github.com/BTTSpace/KiKAiTO-client/issues/2)：全部交付項目與進度。
-- [待確認事項總覽](https://github.com/BTTSpace/KiKAiTO-client/issues/3)：需要回覆的規格細節。
-- [v2 功能規劃](docs/scope-v2.md)：2026 年 9 月 24 日附件的全部功能與交付範圍。
+- [How to read and reply / 操作與回覆指南](https://github.com/BTTSpace/KiKAiTO-client/issues/1)
+- [All features and progress / 全部功能與進度總覽](https://github.com/BTTSpace/KiKAiTO-client/issues/2)
+- [Decisions awaiting confirmation / 待確認事項總覽](https://github.com/BTTSpace/KiKAiTO-client/issues/3)
+- [Communication rules and delivery checks / 溝通及交付檢核](docs/communication-rules.md)
+- [Customer feedback summary / 客戶回饋摘要](docs/review-2026-10-12.md)
+- [v2 baseline scope / v2 基準範圍](docs/scope-v2.md)
 
-## 閱讀與回覆
+## Reply and provide materials 回覆與提供素材
 
-尚未註冊 GitHub 也可以閱讀。請透過原本的聯絡方式告知專案負責人要回覆的功能，附上討論頁連結，由負責人代記回覆與日期。
+Reply in English or Chinese on the relevant feature issue. If you do not have a GitHub account, use your usual contact channel and include the feature name or link; the owner records the respondent, date and reply. Provide private materials through that channel, as this repository is public.
+以英文或中文在對應議題回覆。尚無 GitHub 帳號時，透過原聯絡方式附功能名稱或連結，由負責人代記回覆人、日期與內容。本倉庫公開，私密素材透過原聯絡方式交付。
 
-熟悉操作後，可在 [GitHub 註冊](https://github.com/signup)。登入後開啟對應討論頁，在底部留言欄填寫內容，再按 Comment 送出。
+## Review and acceptance 閱讀與驗收
 
-回覆時請說明看到的畫面、期待的結果，需要時附上截圖。看到展示版本後，可以回覆「已看過，沒有問題」，或逐項說明需要調整的地方。
+`updated-review` means changed content needs review; `bilingual` identifies bilingual explanations; `scope-change` marks added scope awaiting agreement. Existing progress labels continue to apply. The owner removes the review label only after recording the relevant response.
+變更標籤表示待閱讀內容，中英對照標籤表示可用語言，新增範圍標籤表示待確認需求。既有進度標籤繼續使用，負責人記錄對應回覆後才移除變更標籤。
 
-## 素材與進度
+Review the demonstrated version and identify changes or confirm it. The owner records the version/date, checks and customer confirmation before closure. Silence is not confirmation, and agreeing to a plan is not implementation acceptance.
+查看展示版本，提出修改或確認結果。負責人記錄版本／日期、檢查及客戶確認後結案。未回覆不等於確認，同意計劃不等於實作驗收。
 
-客戶提供中英文文案、圖片、影片／封面、英文分類名稱與產品對照。請在對應功能回覆素材，或透過原本的聯絡方式提供，由專案負責人確認收到。
-
-進度由負責人維護：待確認 → 待素材（需要時）→ 進行中 → 待驗收 → 完成。完成項目會關閉討論頁，保留回覆及驗收紀錄。
-
-專案負責人結合系統檢查與客戶對線上版本的回覆進行驗收，記錄展示版本／日期、檢查結果與客戶確認內容後結案。尚未回覆的項目維持待確認。
-
-## 公開範圍
-
-這個協作專案目前公開，留言與附加的檔案也可被其他人閱讀。需私下提供的素材請使用原本的聯絡方式。
-
-程式碼另存於私有專案。是否將這個協作專案改為私有，依客戶參與情況決定。
+Source code and detailed check logs remain private. Repository visibility is a separate decision and does not change automatically after registration.
+程式碼及詳細檢查日誌保持私有，協作倉庫是否轉私有另行決定，註冊不會自動改變公開狀態。
