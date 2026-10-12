@@ -32,6 +32,8 @@ Missing evidence blocks a ready-for-delivery or completion claim; an issue may s
 
 Assign a stable request feedback record number to each independent customer submission. Preserve the original file and assign document v1 if none is supplied. A revision to the same submission gets v2 under the same record; a separate submission gets a new record. Record registration date separately from any verified customer submission date.
 
+Store all received originals under `docs/customer-feedback/<record>/v<revision>/<original filename>`. Preserve the received format, filename and file bytes, including its extension. Never convert, edit or overwrite an archived original. Save summaries, translations and previews as separate files linked to the original. A repeated filename in a later revision belongs in a new revision folder. The register identifies the source file, revision and related issues.
+
 Each record maps document items to issues. Each issue names the source record, revision and affected item. Preserve source labels, dated batch labels and batch overviews permanently. Later batches get new records rather than rewriting earlier batch descriptions. Remove only temporary review-status labels after the corresponding reply is recorded.
 
 `updated-review` means changed content awaits review. `bilingual` means both language sections exist. `scope-change` means added scope awaits agreement. Date-specific batch labels track all edited issues, while source labels track only issues related to the customer document. See [the source register](customer-feedback/README.md).
@@ -72,6 +74,8 @@ Each record maps document items to issues. Each issue names the source record, r
 ## 永久來源及變更紀錄
 
 每次獨立客戶回饋編固定需求回饋單號，保存原檔。客戶未提供版本時，由專案編文件 v1。同一份回饋修訂另存 v2，獨立新回饋另編單號。登錄日期與已確認的客戶提交日期分開記錄。
+
+所有收到的原件集中在 `docs/customer-feedback/<單號>/v<版本>/<原檔名>`，依單號及版本分類。保留收到的格式、檔名、副檔名及檔案內容，不轉檔、不修改、不覆寫原件。摘要、翻譯及預覽另存檔案並連回原件，後續修訂的同名檔放在新版本資料夾。登錄表記錄原檔位置、版本及相關議題。
 
 每張單建立文件項目與議題對照，議題記錄來源單號、文件版本及項目。來源標籤、日期批次標籤及批次總覽永久保留。後續批次另開紀錄，不覆寫原批次說明；記錄對應回覆後只移除暫時待閱讀標籤。
 
