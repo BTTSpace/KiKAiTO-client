@@ -13,11 +13,6 @@ All readers use the same English label names.
 | `bilingual` | English and Chinese explanations are available. |
 | `scope-change` | A feature is added to the original plan. |
 | `FR-2026-10-12-01` | Connects issues to the preserved homepage feedback document. |
-| `CR-2026-10-12-01` | Permanent update record 01 registered on 2026-10-12. |
-| `CR-2026-10-12-02` | Permanent update record 02 registered on 2026-10-12. |
-| `CR-2026-10-12-03` | Permanent update record 03 registered on 2026-10-12. |
-| `CR-2026-10-12-04` | Permanent update record 04 registered on 2026-10-12. |
-| `CR-2026-10-12-05` | Actions and visible results clarified on 2026-10-12. |
 | `bug` | Something behaves incorrectly. |
 | `enhancement` | A feature addition or improvement. |
 | `question` | A question about the website. |
@@ -49,11 +44,6 @@ Only issues with `needs-customer-response` require a reply now. A source or upda
 | `bilingual` | 有英文及中文說明。 |
 | `scope-change` | 相對原計劃新增功能。 |
 | `FR-2026-10-12-01` | 對應已保存的首頁回饋原件。 |
-| `CR-2026-10-12-01` | 2026-10-12 登錄的第 01 次永久更新紀錄。 |
-| `CR-2026-10-12-02` | 2026-10-12 登錄的第 02 次永久更新紀錄。 |
-| `CR-2026-10-12-03` | 2026-10-12 登錄的第 03 次永久更新紀錄。 |
-| `CR-2026-10-12-04` | 2026-10-12 登錄的第 04 次永久更新紀錄。 |
-| `CR-2026-10-12-05` | 2026-10-12 釐清操作條件與可見結果的更新紀錄。 |
 | `bug` | 功能行為有錯。 |
 | `enhancement` | 新增或改善功能。 |
 | `question` | 關於網站的問題。 |

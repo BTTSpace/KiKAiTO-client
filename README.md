@@ -4,7 +4,7 @@ View [all features and progress](https://github.com/BTTSpace/KiKAiTO-client/issu
 
 - [Label meanings](docs/labels.md)
 - [How to read and reply](https://github.com/BTTSpace/KiKAiTO-client/issues/1)
-- [Latest actions and results update](https://github.com/BTTSpace/KiKAiTO-client/issues/22)
+- [Homepage feedback FR-2026-10-12-01](https://github.com/BTTSpace/KiKAiTO-client/issues/18)
 - [Received documents](docs/customer-feedback/README.md)
 - [Feature scope](docs/scope-v2.md)
 
@@ -23,7 +23,7 @@ This repository is public. Send private materials through your usual private con
 
 - [標籤說明](docs/labels.md)
 - [操作與回覆指南](https://github.com/BTTSpace/KiKAiTO-client/issues/1)
-- [最新操作與結果更新](https://github.com/BTTSpace/KiKAiTO-client/issues/22)
+- [首頁回饋 FR-2026-10-12-01](https://github.com/BTTSpace/KiKAiTO-client/issues/18)
 - [收到的文件](docs/customer-feedback/README.md)
 - [功能範圍](docs/scope-v2.md)
 
