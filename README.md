@@ -8,11 +8,14 @@ View [all features and progress](https://github.com/BTTSpace/KiKAiTO-client/issu
 - [Received documents](docs/customer-feedback/README.md)
 - [Feature scope](docs/scope-v2.md)
 
-Each issue shows English first, with Chinese available below. Reply in either language. `needs-customer-response` means a reply is required. With `needs-customer-decision`, choose an option by identifier or copy and check it in a comment.
+Each issue shows English first, with Chinese below. Reply in either language, in an issue comment or via LINE with the issue number.
 
-After each feature is implemented, provide screenshots; for motion or interactive features, also provide a demonstration video or an interactive demo. When the demo link is provided, review the shown version and tell us what should change or confirm that it meets the acceptance list. Screenshots and demo links are not available yet.
+- `needs-customer-response`: a reply is required.
+- `needs-customer-decision`: each question has a recommendation and a reason. If no change is needed, we proceed with that recommendation. For a change, select another option or “Other” and describe your proposal; comment or reply via LINE.
 
-This repository is public. Send private materials through your usual private contact channel.
+After each feature is implemented, we provide screenshots; for motion or interactive features, also provide a demonstration video or an interactive demo. When the demo link is provided, review the shown version and tell us what should change or confirm that it meets the acceptance list. Screenshots and demo links are not available yet.
+
+This repository is public. Send private materials through LINE.
 
 <details>
 <summary>中文說明（點此展開）</summary>
@@ -27,10 +30,13 @@ This repository is public. Send private materials through your usual private con
 - [收到的文件](docs/customer-feedback/README.md)
 - [功能範圍](docs/scope-v2.md)
 
-議題先顯示英文，中文可在下方展開，以任一語言回覆。`needs-customer-response` 表示需要回覆；同時有 `needs-customer-decision` 時，請回覆選項編號或複製選項到留言勾選。
+議題先顯示英文，中文在下方展開；可用任一語言在議題留言或透過 LINE 註明議題編號回覆。
+
+- `needs-customer-response`：需要回覆。
+- `needs-customer-decision`：每題附建議方案及理由，無需調整就依建議執行；需調整時可選其他選項，或選「其他」填寫自己的建議，在議題留言或透過 LINE 回覆。
 
 各功能完成實作後提供畫面截圖；動態或互動功能另附展示影片或可操作 demo。提供 demo 連結後，核對展示版本，提出需修改之處，或確認符合驗收條件。目前尚未提供截圖及 demo 連結。
 
-本倉庫公開，私密素材使用原私下聯絡方式交付。
+本倉庫公開，私密素材使用LINE交付。
 
 </details>

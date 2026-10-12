@@ -4,8 +4,8 @@ All readers use the same English label names.
 
 | Label | Meaning |
 | --- | --- |
-| `needs-customer-response` | A customer reply is required. |
-| `needs-customer-decision` | Choose an option about a feature; a recommendation is included. |
+| `needs-customer-response` | A reply is required, in an issue comment or via LINE. |
+| `needs-customer-decision` | A feature choice: recommended option/reason and an Other field are included. |
 | `awaiting-demo` | A demo or screenshots are not available yet. |
 | `in-progress` | The feature is being built or adjusted. |
 | `awaiting-acceptance` | A shown version is ready for customer acceptance. |
@@ -35,8 +35,8 @@ Only issues with `needs-customer-response` require a reply now. A source or upda
 
 | 標籤 | 意義 |
 | --- | --- |
-| `needs-customer-response` | 需要客戶回覆。 |
-| `needs-customer-decision` | 需選擇功能選項，題目附建議選擇。 |
+| `needs-customer-response` | 需要在議題留言或透過 LINE 回覆。 |
+| `needs-customer-decision` | 功能選項需確認，每題附建議、理由及「其他」填寫欄。 |
 | `awaiting-demo` | 尚待提供 demo 或截圖。 |
 | `in-progress` | 功能正在製作或調整。 |
 | `awaiting-acceptance` | 已有展示版本，待客戶驗收。 |

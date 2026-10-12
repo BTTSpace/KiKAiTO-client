@@ -14,7 +14,10 @@ Administrators enter a product once and maintain its Chinese and English text, i
 
 ## Editable content and review
 
-Administrators enter text, upload images/covers, add video links and manage English categories themselves. Demos will show the English pages, mobile layout and main content-management operations. Demos use labeled example data; each feature issue lists editable content and acceptance.
+Administrators enter text, upload images/covers, add video links and manage English categories themselves. Each feature issue lists editable content and acceptance.
+
+- We will provide desktop/mobile screenshots of the English pages and content-management screens.
+- Motion and interactive features will also have a demonstration video or an interactive demo.
 
 Automatic translation, shopping carts and online checkout are outside this plan. The website does not send or track quotation emails.
 
@@ -37,7 +40,10 @@ Automatic translation, shopping carts and online checkout are outside this plan.
 
 ## 可管理內容與查看
 
-管理者自行填文字、上傳圖片／封面、設定影片連結及英文分類。Demo 會展示英文頁面、手機版及主要內容管理操作，Demo 使用標示的示範資料，各功能列出可管理內容及驗收。
+管理者自行填文字、上傳圖片／封面、設定影片連結及英文分類。各功能列出可管理內容及驗收。
+
+- 提供英文頁面及內容管理畫面的桌機／手機截圖。
+- 動態及互動功能另附展示影片或可操作 demo。
 
 本計劃不含自動翻譯、購物車及線上結帳，網站不代寄或追蹤詢價郵件。
 
