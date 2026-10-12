@@ -10,7 +10,7 @@ View [all features and progress](https://github.com/BTTSpace/KiKAiTO-client/issu
 
 Each issue shows English first, with Chinese available below. Reply in either language. `needs-customer-response` means a reply is required. With `needs-customer-decision`, choose an option by identifier or copy and check it in a comment.
 
-Administrators manage real content themselves; the demo uses clearly labeled example data. You can share content voluntarily for demonstration. When the demo link is provided, review the shown version and tell us what should change or confirm that it meets the acceptance list. Screenshots and demo links are not available yet.
+After each feature is implemented, provide screenshots; for motion or interactive features, also provide a demonstration video or an interactive demo. When the demo link is provided, review the shown version and tell us what should change or confirm that it meets the acceptance list. Screenshots and demo links are not available yet.
 
 This repository is public. Send private materials through your usual private contact channel.
 
@@ -29,7 +29,7 @@ This repository is public. Send private materials through your usual private con
 
 議題先顯示英文，中文可在下方展開，以任一語言回覆。`needs-customer-response` 表示需要回覆；同時有 `needs-customer-decision` 時，請回覆選項編號或複製選項到留言勾選。
 
-正式內容由管理者自行維護，demo 使用清楚標示的示範資料；希望展示採用自己的內容時可主動分享。提供 demo 連結後，核對展示版本，提出需修改之處，或確認符合驗收條件。目前尚未提供截圖及 demo 連結。
+各功能完成實作後提供畫面截圖；動態或互動功能另附展示影片或可操作 demo。提供 demo 連結後，核對展示版本，提出需修改之處，或確認符合驗收條件。目前尚未提供截圖及 demo 連結。
 
 本倉庫公開，私密素材使用原私下聯絡方式交付。
 
